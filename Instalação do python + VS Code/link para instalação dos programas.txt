@@ -1,0 +1,4 @@
+link python: https://www.python.org/downloads/
+OBS.: Baixei e instalei a versão 3.14.0; No inicio da instalação, marcar a opção de adicionar o python.exe ao PATH e depois seguir com tudo no padrão
+
+link vscode: https://code.visualstudio.com/
