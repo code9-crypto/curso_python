@@ -1,0 +1,12 @@
+NOTA: utilizar mais o powershell, porque aceitam comandos UNIX
+
+Comandos do powershell para liberar o acesso total
+1 - Get-ExecutionPolicy -> se o retorno deste comando for Restricted, siga o passo a passo;
+ 1.1 - Set-ExecutionPolicy Unrestricted -Force -> agora terá acesso total do sistema
+ (OBS.: caso queira ter mais segurança, então prosseguir com este passo a passo)
+ (Set-ExecutionPolicy AllSigned -Force)
+
+Criando ambiente virtual
+1 - Entrar no VSCode, abrir o terminal(dentro da pasta dos projetos);
+2 - Executar o seguinte comando: python -m venv nome_ambiente_virtual
+3 - Agora deverá ativar deste jeito: .\nome_ambiente_virtual\Scripts\activate
