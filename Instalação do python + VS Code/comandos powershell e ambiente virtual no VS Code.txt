@@ -10,3 +10,12 @@ Criando ambiente virtual
 1 - Entrar no VSCode, abrir o terminal(dentro da pasta dos projetos);
 2 - Executar o seguinte comando: python -m venv nome_ambiente_virtual
 3 - Agora deverá ativar deste jeito: .\nome_ambiente_virtual\Scripts\activate
+
+Alterando a forma do python executar as classes e dentro do terminal
+1º Entre no arquivo json das configurações do VSCode
+2º Insira esses códigos e depois salve o arquivo(para que tenha efeito):
+    "code-runner.executorMap": { //este comando altera a forma que o python executa as classes
+        "python": "cls ; python -u",
+    }
+    "code-runner.runInTerminal": true, //este comando faz o código executar direto no terminal
+NOTA: para que esses códigos funcionem, a extensão code runner deve estar instalada no VSCode
