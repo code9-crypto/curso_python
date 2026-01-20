@@ -1,4 +1,4 @@
-import os as windows
+import os as windows #este biblioteca os é usada para que o python possa executar comandos do sistema operacional
 
 plv_secreta = "escola"
 ltr_acertadas = ""
@@ -26,7 +26,7 @@ while True:
     print("Palavra formada: " + palavra_formada)
 
     if palavra_formada == plv_secreta:
-        windows.system('cls')
+        windows.system('cls') #o comando está sendo executado aqui
         print("VOCÊ GANHOU!! PARABÉNS")
         print("A palavra secreta era: " + plv_secreta)
         print("Número de tentativas foram: " + tentativas)
