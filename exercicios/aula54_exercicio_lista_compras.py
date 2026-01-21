@@ -27,8 +27,12 @@ while True:
             try:
                 ind = int(input("Escolha o índice para apagar: "))
                 del lista_compras[ind]
-            except:
+            except ValueError:
                 print("Índice inválida")
+            except TypeError:
+                print("Valor inválido")
+            except Exception:
+                print("Erro desconhecido")
     elif opcao.lower() == 'l':
         if len(lista_compras) == 0:
             print("Lista está vazia")
