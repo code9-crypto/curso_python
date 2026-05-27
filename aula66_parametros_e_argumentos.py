@@ -7,7 +7,7 @@ ARGUMENTOS -> são os valores usados no chamamento da função
 
 #definição
 def soma(x, y, z, texto):
-    print(f"{x=} {y=} {z=} | x + y + z = {x + y + z} -> {texto}")
+    print(f"{x=} {y=} {z=} | x + y + z = {x + y + z} -> {texto[-1]}")
 
 #argumentos posicionais
 soma(1 ,2 ,3, "Argumento posicional")
