@@ -29,8 +29,10 @@ else:
 #percorrendo pela lista a fim de imprimir o resultado dos multiplicadores
 for x in numero_multiplicador:
     funcs_multiplicacoes = multiplicador(x) #aqui instâncio a função com o parâmetro individual da lista
-    print(funcs_multiplicacoes(numero_a_ser_multiplicado)) # aqui printa o resultado da multiplicação: dobro, tripo e quadruplo
+    print(funcs_multiplicacoes(numero_a_ser_multiplicado)) # aqui printa o resultado da multiplicação: dobro, tripo e quadruplo...
+
 print()
+
 ###################################################################################################################
 
 print("SOLUÇÃO DO PROFESSOR")
