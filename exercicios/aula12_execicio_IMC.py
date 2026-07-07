@@ -1,3 +1,5 @@
+import os as windows
+
 nome = "William Caetano"
 altura = 1.75
 peso = 86
