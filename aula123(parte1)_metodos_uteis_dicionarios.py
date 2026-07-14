@@ -4,7 +4,7 @@
 # values - iterável com os valores
 # items - iterável com chaves e valores
 # setdefault - adiciona valor padrão se a chave não existir
-# copy - retorna uma cópia rasa (shallow copy)
+# copy - retorna uma cópia rasa (shallow copy - ele não copia uma lista para a outra variavel, mas sim aponta para a mesma lista)
 # get - obtém uma chave
 # pop - Apaga um item com a chave especificada (del)
 # popitem - Apaga o último item adicionado
@@ -45,3 +45,4 @@ print()
 print("Exibindo chave e valor por meio do método items()")
 for chave, valor in pessoa.items(): #este aqui é semelhante ao método enumarete() quando há lista dentro de lista
     print(f'{chave} : {valor}')
+

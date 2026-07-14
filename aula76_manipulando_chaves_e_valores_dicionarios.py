@@ -14,7 +14,7 @@ print(pessoa[chave])
 
 pessoa[chave] = 'Maria'
 
-del pessoa['sobrenome']
+del pessoa['sobrenome'] #aqui está a apagando a chave junto com o valor
 print(pessoa)
 print(pessoa['nome'])
 
