@@ -54,9 +54,9 @@ for indice in perguntas:
     print(indice['Pergunta']) #aqui está exibindo a pergunta de cada pergunta/dicionario
     
     #Este laço está sendo usado exclusivamente para percorrer itens da chave Opções e exibir as perguntas
-    for opcao in range(0, len(indice['Opções'])): #aqui está percorrendo os indices da lista de opções        
-        opc = numeroParaLetra(opcao)#aqui está recebendo a letra referente ao índice que vem da função numeroParaLetra()
-        print(f"{opc}) {indice['Opções'][opcao]}")#exibindo os indíces(em forma de letra) e as opções de cada pergunta/dicionario
+    for ind, opcao in enumerate(indice['Opções']): #aqui está percorrendo os indices da lista de opções usando o método enumerate     
+        opc = numeroParaLetra(ind)#aqui está recebendo a letra referente ao índice que vem da função numeroParaLetra()
+        print(f"{opc}) {opcao}")#exibindo os indíces(em forma de letra) e as opções de cada pergunta/dicionario
     
     #aqui está fazendo a pergunta ao usuário e a variável irá armazenar a resposta
     #OBS.: como a opção escolhida é uma letra, então a função letraParaNumero() está convertendo a letra em número
