@@ -5,3 +5,7 @@
 # range,
 
 # list
+
+# tuplas
+
+# Dicionários

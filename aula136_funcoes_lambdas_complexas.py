@@ -34,3 +34,13 @@ print(
         1, 2, 3, 4, 5, 6, 7
     )
 )
+
+#OU
+
+numeros = 45,6,8,4,9,10,15,98,10
+print(
+    executa(
+        lambda *args: sum(args),
+        *numeros
+    )
+)

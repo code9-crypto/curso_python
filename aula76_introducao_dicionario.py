@@ -37,5 +37,9 @@ print(pessoa['sobrenome'])
 
 print()
 
+#acessando os valores de cada chave dinâmicamente
 for chave in pessoa:
-    print(chave, pessoa[chave])    
+    print(chave, pessoa[chave])
+    if chave == 'endereços':
+        for endereco in pessoa['endereços']:
+            print(f'endereco: {endereco['rua'], {endereco['número']}}')

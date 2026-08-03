@@ -16,7 +16,7 @@ listaNumeros = [4, 32, 1, 34, 5, 6, 6, 21]
 # sorted(lista) este método retorna uma nova lista ordenada. Recebe dois parâmetros: 1º a lista, 2º função(ou lambda)
 
 print('LISTA ORDENADA COM O MÉTODO SORT')
-listaNumeros.sort() #aqui ordena a lista primeiro
+listaNumeros.sort() #aqui ordena a lista primeiro. Este método não retorna nada
 print(listaNumeros, end="\n\n") #para ser exibida depois
 
 print("LISTA ORDENADA COM MÉTODO SORT DE FORMA REVERSA")
@@ -24,7 +24,7 @@ listaNumeros.sort(reverse=True)
 print(listaNumeros, end="\n\n")
 
 print('LISTA ORDENADA COM O MÉTODO SORTED')
-lN = sorted(listaNumeros)
+lN = sorted(listaNumeros) #aqui este método gera uma nova lista como retorno
 print(lN, end="\n\n")
 
 lista = [
