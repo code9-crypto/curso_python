@@ -43,6 +43,7 @@ for valor in pessoa.values():
 print()
 
 print("Exibindo chave e valor por meio do método items()")
+#DESEMPACOTAMENTO
 for chave, valor in pessoa.items(): #este aqui é semelhante ao método enumarete() quando há lista dentro de lista
     print(f'{chave} : {valor}')
 

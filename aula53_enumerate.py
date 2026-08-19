@@ -3,6 +3,7 @@
 #[(0, 'William'), (1, 'Ester'), (2, 'Hadassa')]
 #É isso que o enumerate faz, cria índices para item da lista
 lista = ["William","Ester","Hadassa"]
+lista_idade = [['william',34],['ester',26],['hadassa',2]]
 lista_enumerada = list(enumerate(lista))
 #print(lista_enumerada)
 
