@@ -6,7 +6,7 @@ impares = [
     if impar % 2 != 0
 ]
 print(impares)
-
+################################################################
 lista = []
 for x in range(3):
     for y in range(3):

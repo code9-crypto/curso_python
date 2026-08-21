@@ -50,4 +50,3 @@ configuracoes = {
 }
 outros_nao_nomeados = 'william','ester','hadassa'
 mostro_argumentos_nomeados(*outros_nao_nomeados, **configuracoes)
-
