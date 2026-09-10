@@ -30,4 +30,4 @@ else:
 # FAZENDO A MESMA COISA QUE A DE CIMA SÓ QUE USANDO OPERADOR TERNÁRIO
 print('NÃO EXISTE') if pessoa.get('sobrenome') is None else print(pessoa['sobrenome'])
 
-# print('ISSO Não vai')
+print('ISSO Não vai')

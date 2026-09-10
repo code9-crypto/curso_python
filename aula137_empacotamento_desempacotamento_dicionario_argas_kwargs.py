@@ -31,9 +31,9 @@ print("EXTRAÇÃO DE DADOS DE DICIONÁRIOS: ", pessoas_completa, end="\n\n")
 
 
 def mostro_argumentos_nomeados(*args, **kwargs):
-    print('NÃO NOMEADOS(tupla):', args, end="\n\n")
+    print('NÃO NOMEADOS(tupla -> *args):', args, end="\n\n")
 
-    print("NOMEADOS(dicionário)")
+    print("NOMEADOS(dicionário - > **kwargs)")
     for chave, valor in kwargs.items():
         print(chave, valor)
 

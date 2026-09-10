@@ -8,7 +8,7 @@ for numero in range(10):
 # print(lista)
 
 lista = [
-    numero * 2 #a expressão deve vir à direita do for
+    numero * 2 #a expressão deve vir à esquerda do for
     for numero in range(10)
 ]
 print(lista)
