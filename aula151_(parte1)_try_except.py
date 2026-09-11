@@ -14,7 +14,7 @@ except ZeroDivisionError:
     print('Dividiu por zero.')
 except NameError:
     print('Nome b não está definido')
-except (TypeError, IndexError):
+except (TypeError, IndexError): #aqui está tratando dois tipos de exceções ao mesmo tempo
     print('TypeError + IndexError')
 except Exception:
     print('ERRO DESCONHECIDO.')
