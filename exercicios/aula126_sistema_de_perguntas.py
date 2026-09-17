@@ -98,4 +98,4 @@ if len(erradas) != 0:
         print(errada, end=" ")
     print()
 else:
-    print("Você não errou nenhuma pergunta")
+    print("Você não errou nenhuma pergunta 😮")
