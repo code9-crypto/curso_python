@@ -16,5 +16,5 @@ def criar_funcao(funcao, x):
 soma_com_cinco = criar_funcao(soma, 5)
 multiplica_por_dez = criar_funcao(multiplica, 10)
 
-print(soma_com_cinco(5))
+print(soma_com_cinco(6))
 print(multiplica_por_dez(10))
