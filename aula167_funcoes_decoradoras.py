@@ -15,7 +15,8 @@ def criar_funcao(func):
         return resultado
     return interna
 
-
+@criar_funcao #OBS.: esta notação troca o nome desta função para a função interna desta
+# E para que isso funcione, a função criadora só pode receber como parâmetro a função
 def inverte_string(string):
     return string[::-1]
 
@@ -25,6 +26,11 @@ def e_string(param):
         raise TypeError('param deve ser uma string')
 
 
-inverte_string_checando_parametro = criar_funcao(inverte_string)
-invertida = inverte_string_checando_parametro('lista')
+#COM A NOTAÇÃO @criar_funcao eu não preciso mais desta lógica, porque isso já simplifica
+# inverte_string_checando_parametro = criar_funcao(inverte_string)
+# invertida = inverte_string_checando_parametro('lista')
+# print(invertida)
+
+#AGORA FICA SIMPLESMENTE DESTE JEITO
+invertida = inverte_string('123')
 print(invertida)
