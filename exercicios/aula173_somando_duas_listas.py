@@ -11,6 +11,7 @@ lista2 = [1,2,3,4,5,6,7,8,9,10,11]
 
 lista_resultado = []
 
+
 menor_lista = min(len(lista1), len(lista2))
 
 def soma_listas(listaMenor, ListaMaior):

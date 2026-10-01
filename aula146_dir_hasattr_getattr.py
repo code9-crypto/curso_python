@@ -1,6 +1,6 @@
 # dir, hasattr e getattr em Python
 string = 'Luiz'
-metodo = 'strip'
+metodo = 'upper'
 
 if hasattr(string, metodo):
     print('Existe upper')

@@ -13,6 +13,9 @@ frase = "estou aprendendo python novamente com um professor que ensina bem direi
 lista_frase = frase.split() #este método separa uma string e cria uma lista
 print(type(lista_frase),'\n',lista_frase)
 
+print(dir(frase))
+
+
 #dividindo a frase, mas agora com base numa vírgula
 print()
 frase = "continuo, aprendendo, python, bem, em, detalhes, estou, gostando, muito"

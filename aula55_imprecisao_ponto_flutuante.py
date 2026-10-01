@@ -20,3 +20,7 @@ n1 = dec.Decimal('0.1') #o parâmetro deve ser passado em formato de string
 n2 = dec.Decimal('0.7') #o parâmetro deve ser passado em formato de string
 n3 = n1 / n2
 print(round(n3,2))
+
+n4 = 565497
+print(dir(n4), sep='\n')
+print(n4.__mod__())
