@@ -10,6 +10,7 @@ Criando ambiente virtual
 1 - Entrar no VSCode, abrir o terminal(dentro da pasta dos projetos);
 2 - Executar o seguinte comando: python -m venv nome_ambiente_virtual
 3 - Agora deverá ativar deste jeito: .\nome_ambiente_virtual\Scripts\activate
+OBS.: para desativar o ambiente virtual é só digitar "deactivate"(não esquecendo que precisar estar dentro da pasta do ambiente virtual)
 
 Alterando a forma do python executar as classes e dentro do terminal
 1º Entre no arquivo json das configurações do VSCode
