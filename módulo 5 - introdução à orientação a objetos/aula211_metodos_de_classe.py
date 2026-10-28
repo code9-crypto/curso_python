@@ -23,7 +23,7 @@ class Pessoa:
 
 
 p1 = Pessoa('João', 34)
-p2 = Pessoa.criar_com_50_anos('Helena')
+p2 = Pessoa.criar_com_50_anos('Helena') #aqui não está instanciando a classe, mas sim recebendo o resultado do método da classe
 p3 = Pessoa('Anônima', 23)
 p4 = Pessoa.criar_sem_nome(25)
 print(p2.nome, p2.idade)
