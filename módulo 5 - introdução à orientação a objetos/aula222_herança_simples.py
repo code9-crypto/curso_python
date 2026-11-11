@@ -18,7 +18,7 @@ class Pessoa:# Esta é super classe
 
     def falar_nome_classe(self):
         print('Classe PESSOA')
-        print(self.nome, self.sobrenome, self.__class__.__name__)
+        print(self.nome, self.sobrenome, self.__class__.__name__) 
 
 #Esta é a subclasse de Pessoa
 class Cliente(Pessoa):# A herança é feita deste jeito

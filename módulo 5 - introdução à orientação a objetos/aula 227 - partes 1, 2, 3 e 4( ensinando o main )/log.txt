@@ -1,0 +1,6 @@
+Error: qualquer coisa (LogFileMixin)
+Success: Que legal (LogFileMixin)
+Success: Salvo com sucesso no arquivo (LogFileMixin)
+Error: Houve um erro ao salvar este arquivo (LogFileMixin)
+Success: Galaxy S está ligado (Smartphone)
+Error: iPhone está desligado (Smartphone)
