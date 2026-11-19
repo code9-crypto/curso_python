@@ -30,4 +30,4 @@ try:
     variavel = "123456"
     recebeTexto(variavel)
 except NaoPodeSerNumero as erro:
-    print(erro)
+    print("Classe: ",erro.__class__.__name__, " - ", "Mensagem: ", erro)
